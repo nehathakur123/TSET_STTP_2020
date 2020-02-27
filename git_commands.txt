@@ -1,0 +1,255 @@
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa
+$ git init
+Initialized empty Git repository in C:/Users/admin/Desktop/aaa/.git/
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ git config--global user.name "nehathakur123"
+git: 'config--global' is not a git command. See 'git --help'.
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ git config --global user.name "nehathakur123"
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ git config --global user.email "neha.thakur81@gmail.com"
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ git clone https://github.com/nehathakur123/TSET_STTP_2020.git
+Cloning into 'TSET_STTP_2020'...
+fatal: unable to access 'https://github.com/nehathakur123/TSET_STTP_2020.git/': Could not resolve host: github.com
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ git clone https://github.com/nehathakur123/TSET_STTP_2020.git
+Cloning into 'TSET_STTP_2020'...
+fatal: unable to access 'https://github.com/nehathakur123/TSET_STTP_2020.git/': Could not resolve host: github.com
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ git clone https://github.com/nehathakur123/TSET_STTP_2020.git
+Cloning into 'TSET_STTP_2020'...
+fatal: unable to access 'https://github.com/nehathakur123/TSET_STTP_2020.git/': Could not resolve host: github.com
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ git clone https://github.com/nehathakur123/TSET_STTP_2020.git
+Cloning into 'TSET_STTP_2020'...
+fatal: unable to access 'https://github.com/nehathakur123/TSET_STTP_2020.git/': Could not resolve host: github.com
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ git clone https://github.com/nehathakur123/TSET_STTP_2020.git
+Cloning into 'TSET_STTP_2020'...
+warning: You appear to have cloned an empty repository.
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ git clone https://github.com/nehathakur123/TSET_STTP_2020.git/aaa
+Cloning into 'aaa'...
+remote: Not Found
+fatal: repository 'https://github.com/nehathakur123/TSET_STTP_2020.git/aaa/' not found
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ cd ^C
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ cd TEST_STTP_2020
+bash: cd: TEST_STTP_2020: No such file or directory
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ cd TEST_STTP_2020.git
+bash: cd: TEST_STTP_2020.git: No such file or directory
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa (master)
+$ cd TSET_STTP_2020
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git addA.java
+git: 'addA.java' is not a git command. See 'git --help'.
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git add A.java
+fatal: pathspec 'A.java' did not match any files
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git add A.java
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git commit -m "A.java"
+[master (root-commit) c9dabce] A.java
+ 1 file changed, 5 insertions(+)
+ create mode 100644 A.java
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 296 bytes | 148.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/nehathakur123/TSET_STTP_2020.git
+ * [new branch]      master -> master
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git pull origin master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 724 bytes | 3.00 KiB/s, done.
+From https://github.com/nehathakur123/TSET_STTP_2020
+ * branch            master     -> FETCH_HEAD
+   c9dabce..eeeecdc  master     -> origin/master
+Updating c9dabce..eeeecdc
+Fast-forward
+ A.java | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+credential.helper=manager
+user.name=nehathakur123
+user.email=neha.thakur81@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/nehathakur123/TSET_STTP_2020.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git config user.name
+nehathakur123
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git help congig
+The system cannot find the file C:/Program Files/Git/mingw64/share/doc/git-doc/gitcongig.html.
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git help config
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git branch -a
+* master
+  remotes/origin/master
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git checkout -b firstbranch
+Switched to a new branch 'firstbranch'
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ git branch -a
+* firstbranch
+  master
+  remotes/origin/master
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ git checkout -b master
+fatal: A branch named 'master' already exists.
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ git checkout
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git branch -a
+  firstbranch
+* master
+  remotes/origin/master
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git branch -d firstbranch
+Deleted branch firstbranch (was eeeecdc).
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git branch
+* master
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git branch -a
+* master
+  remotes/origin/master
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git log
+commit eeeecdceb6215395944fa5969a7e298a5ddd6626 (HEAD -> master, origin/master)
+Author: nehathakur123 <neha.thakur81@gmail.com>
+Date:   Thu Feb 27 14:30:16 2020 +0530
+
+    Update A.java
+
+    new line first
+
+commit c9dabcee04e3eddb354abaa19e8e788267f0654b
+Author: nehathakur123 <neha.thakur81@gmail.com>
+Date:   Thu Feb 27 11:37:56 2020 +0530
+
+    A.java
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (master)
+$ git checkout -b firstbranch
+Switched to a new branch 'firstbranch'
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ git branch
+* firstbranch
+  master
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ git add A.java
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ git commit -m "A.java"
+On branch firstbranch
+nothing to commit, working tree clean
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ git commit -m "A.java"
+On branch firstbranch
+nothing to commit, working tree clean
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ push origin master
+bash: push: command not found
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ git push origin master
+Everything up-to-date
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ git push origin firstbranch
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'firstbranch' on GitHub by visiting:
+remote:      https://github.com/nehathakur123/TSET_STTP_2020/pull/new/firstbranch
+remote:
+To https://github.com/nehathakur123/TSET_STTP_2020.git
+ * [new branch]      firstbranch -> firstbranch
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$ System.out.println("HI GIT");^C
+
+admin@DESKTOP-USG4CU9 MINGW64 ~/Desktop/aaa/TSET_STTP_2020 (firstbranch)
+$
